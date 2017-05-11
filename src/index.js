@@ -33,7 +33,6 @@ function returnArgumentsArray() {
 
     return arr;
 }
-returnArgumentsArray(7, 5, 3, 8);
 
 /*
  Задание 4:
@@ -44,7 +43,6 @@ function returnFnResult(fn) {
     return fn();
 }
 function fun2() {
-    console.log('hi');
 }
 returnFnResult(fun2);
 
