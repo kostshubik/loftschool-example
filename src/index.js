@@ -52,7 +52,7 @@ function returnFnResult(fn) {
 function returnCounter(a=0) {
     return function() {
         return ++a
-    }();
+    };
 }
 
 /*
