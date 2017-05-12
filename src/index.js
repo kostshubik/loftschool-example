@@ -42,9 +42,6 @@ function returnArgumentsArray() {
 function returnFnResult(fn) {
     return fn();
 }
-function fun2() {
-}
-returnFnResult(fun2);
 
 /*
  Задание 5:
@@ -57,7 +54,6 @@ function returnCounter(a=0) {
         return ++a
     }();
 }
-returnCounter(5);
 
 /*
  Задание 6 *:
